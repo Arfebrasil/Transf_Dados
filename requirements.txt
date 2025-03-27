@@ -1,0 +1,4 @@
+pdfplumber
+
+
+# to install use pip -r requirements.txt
