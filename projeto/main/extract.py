@@ -50,7 +50,7 @@ def pdf_to_csv() -> (
                 PATH, "a", newline="", encoding="utf-8"
             ) as file:  # opens the file
 
-                file.write("\n")
+                file.write("\n")  # to secure that csv dont write wrongly
 
                 for (
                     row
@@ -62,9 +62,9 @@ def pdf_to_csv() -> (
 
                     writer.writerow(row)
 
-        return PATH
+        return PATH  # for later use
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # module management
 
     pdf_to_csv()

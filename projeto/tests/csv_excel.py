@@ -7,10 +7,10 @@ def csv_to_excel() -> (
 
     csv = pd.read_csv("projeto/csv/main.csv")  # reads the csv in the folder
     csv.to_excel(
-        "test.xls", index=False, engine="openpyxl"
+        "projeto/test.xls", index=False, engine="openpyxl"
     )  # turn csv into a excel table creating a file
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # module management
 
     csv_to_excel()
