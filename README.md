@@ -8,7 +8,7 @@ With the csv file, replace select words for new words
 
 Then zip the file for future use
 
-
+----------------------------------------------------------------------------------------------
 
 csv file -> projeto/csv/main.csv
 
@@ -16,7 +16,7 @@ excel file(testing) -> projeto/test.xls (excel may prompt you file is not secure
 
 zip file -> projeto/Teste_Arthur_Ferreira.zip
 
-
+----------------------------------------------------------------------------------------------
 
 To run:
 
