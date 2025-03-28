@@ -1,3 +1,0 @@
-pandas
-
-# to install use pip -r tests_requirements.txt

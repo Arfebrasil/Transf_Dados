@@ -1,4 +1,4 @@
 pdfplumber
-
+pandas
 
 # to install use pip -r requirements.txt
