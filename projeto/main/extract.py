@@ -47,7 +47,7 @@ def pdf_to_csv() -> (
             )  # create a array of arrays(each array is a row of the table)
 
             with open(
-                f"{PATH}", "a", newline="", encoding="utf-8"
+                PATH, "a", newline="", encoding="utf-8"
             ) as file:  # opens the file
 
                 file.write("\n")
@@ -63,4 +63,6 @@ def pdf_to_csv() -> (
                     writer.writerow(row)
 
 
-pdf_to_csv()
+if __name__ == "__main__":
+
+    pdf_to_csv()
