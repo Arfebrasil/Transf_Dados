@@ -10,7 +10,7 @@ RANGE_OF_PAGES = range(2, 181)  # total pages
 
 
 def pdf_to_csv() -> (
-    None
+    str
 ):  # get every table from anexo and append it rows in the main.csv (headers not include)
 
     def create_base_csv() -> (
@@ -61,6 +61,8 @@ def pdf_to_csv() -> (
                     writer = csv.writer(file)
 
                     writer.writerow(row)
+
+        return PATH
 
 
 if __name__ == "__main__":

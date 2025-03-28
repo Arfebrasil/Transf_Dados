@@ -1,9 +1,9 @@
 import pandas
 
 
-def replace_words():
+def replace_words(PATH) -> None:
 
-    df = pandas.read_csv("projeto/csv/main.csv")
+    df = pandas.read_csv(PATH)
 
     df.replace(
         {
@@ -14,7 +14,7 @@ def replace_words():
         inplace=True,
     )
 
-    df.to_csv("projeto/csv/main.csv", index=False)
+    df.to_csv(PATH, index=False)
 
 
 if __name__ == "__main__":
